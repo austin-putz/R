@@ -1,2 +1,3 @@
 # R
-R Basics
+
+This repository will include some scripts for learning some basics about R.
