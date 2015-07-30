@@ -1,7 +1,11 @@
+#==============================================================================#
+# recodeClasses.R
+#==============================================================================#
 
-
-
-
+# This is a simple function to recode all the classes of the data
+# frame you are working on. This may save you a lot of time if 
+# you have dozens or hundreds of columns (without all those single
+# lines for each column). 
 
 # Creating a function to do this recoding
   recodeClasses <- function(data, classes, format="%m/%d/%Y") {
