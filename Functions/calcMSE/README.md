@@ -28,5 +28,17 @@ The following screenshot is from one of my analyses.
 * x.col is the x-variable (numeric)
 * y.col is the y-variable (numeric)
 * n is the number of datapoints needed to be considered
-* type is the analysis type ("lm" or "rq")
+* type is the analysis type ("lm" or "rq" for linear model and quantile regression, respectively)
 * order is for fitting linear, or other degree polynomial (2 for quadratic, 3 for cubic fit, etc)
+
+## Quantile Regression
+
+Using the `rq` option will run quantile regression and it will need the tau option (default to 0.5). 
+We thought it may be better to actually regress on the healthy days, but this was not quite the
+case. It's very correlated to the MSE using simple linear regression. 
+
+## Comments/Questions
+
+Please contact me if you want to use this function and I can get you the most up to date one I have.
+Sometimes I fall behind updating my GitHub account. 
+
